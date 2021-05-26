@@ -6,6 +6,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
+      cursive: ['Parisienne', 'cursive'],
       sans: ['Karla', defaultTheme.fontFamily.sans],
     },
     extend: {},
