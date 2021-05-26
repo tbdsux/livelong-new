@@ -2,7 +2,7 @@
   <main>
     <!-- showcase header -->
     <container width="w-5/6">
-      <div class="py-12 grid grid-cols-2 gap-8 items-center">
+      <div class="pt-12 pb-16 grid grid-cols-2 gap-8 items-center">
         <div class="">
           <h3
             class="
@@ -16,7 +16,7 @@
           >
             Live Long
           </h3>
-          <h4 class="text-5xl font-extrabold text-gray-700">
+          <h4 class="text-4xl font-extrabold text-gray-700">
             Detox Bar and Organic Shop
           </h4>
           <p class="text-xl text-gray-500 tracking-wide my-6">
@@ -32,8 +32,9 @@
                 px-6
                 rounded-md
                 text-lg
-                bg-gray-400
-                hover:bg-gray-500
+                bg-gray-500
+                opacity-80
+                hover:opacity-100
                 text-gray-50
                 trackin-wide
                 flex
@@ -62,8 +63,9 @@
                 px-6
                 rounded-md
                 text-lg
-                bg-green-400
-                hover:bg-green-500
+                bg-green-500
+                opacity-80
+                hover:opacity-100
                 text-gray-50
                 trackin-wide
                 ml-3
