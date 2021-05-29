@@ -20,13 +20,19 @@
 
         <ul class="flex items-center text-gray-600">
           <li>
-            <a href="#" class="px-4 mx-1 hover:text-green-500">Home</a>
+            <nuxt-link to="/" class="px-4 mx-1 hover:text-green-500">
+              Home
+            </nuxt-link>
           </li>
           <li>
-            <a href="#" class="px-4 mx-1 hover:text-green-500">Menu</a>
+            <nuxt-link to="/menus" class="px-4 mx-1 hover:text-green-500">
+              Menus
+            </nuxt-link>
           </li>
           <li>
-            <a href="#" class="px-4 mx-1 hover:text-green-500">About Us</a>
+            <nuxt-link to="/about-us" class="px-4 mx-1 hover:text-green-500">
+              About Us
+            </nuxt-link>
           </li>
           <li>
             <a
