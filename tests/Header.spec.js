@@ -1,14 +1,14 @@
 import { mount } from '@vue/test-utils'
 import Header from '@/components/Header.vue'
 
-describe('Header', () => {
-  const wrapper = mount(Header, {
-    stubs: {
-      NuxtLink: true,
-      Container: true,
-    },
-  })
+const wrapper = mount(Header, {
+  stubs: {
+    NuxtLink: true,
+    Container: true,
+  },
+})
 
+describe('Header', () => {
   test('is a Vue instance', () => {
     expect(wrapper.vm).toBeTruthy()
   })
