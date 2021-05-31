@@ -35,6 +35,11 @@
             </nuxt-link>
           </li>
           <li>
+            <nuxt-link to="/gallery" class="px-4 mx-1 hover:text-green-500">
+              Gallery
+            </nuxt-link>
+          </li>
+          <li>
             <a
               href="#"
               class="
